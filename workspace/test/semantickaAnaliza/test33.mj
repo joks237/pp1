@@ -1,0 +1,27 @@
+program p
+    int x;
+    char c;
+    bool b;
+
+    int arr[];
+{
+    void main()
+    {
+        read(x);
+        read(c);
+        read(b);  //expected variable
+        read(arr);       //expected simple type
+
+        print(x);
+        print(c);
+        print(b);
+        print(arr[x]);
+ 
+
+        print(x);
+        print(c);
+        print(b);
+
+
+    }
+}

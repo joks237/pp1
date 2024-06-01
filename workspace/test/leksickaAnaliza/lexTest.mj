@@ -1,0 +1,50 @@
++
+++
+-
+--
+*
+/
+%
+,
+.
+;
+=
+==
+!=
+<
+<=
+>
+>=
+if
+else
+print
+read
+return
+void
+continue
+break
+(
+)
+[
+]
+{
+}
+ident
+1
+123
++22
+-22
+'a' //ne radi a = '' i a = 'abc' !
+program P
+{
+    const int x = 5; //first comment
+    void f()
+    {
+
+    }
+
+    void main()
+    {
+
+    }
+}

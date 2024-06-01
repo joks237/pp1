@@ -1,0 +1,10 @@
+program p
+    const int x = 5, x2 = 10;
+    const char y = 'a', y2 = 'b';
+    int z, z2[];
+    char c[], c2[], c3;
+    bool b1;
+    bool b2[], b3;
+{
+
+}

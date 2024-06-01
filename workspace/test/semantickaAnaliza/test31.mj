@@ -1,0 +1,36 @@
+program p
+    int a;
+    const int b = 5;
+{
+ 
+    int f2(int a)
+        int a;               
+    {
+        return 0;
+    }
+
+    long f3(int b)           //unknown type, non void function without return
+    {
+
+    }
+
+    int a(int b)            //name already defined in this scope
+    {
+        return 0;
+    }
+
+    void main()
+    {
+
+    }
+
+    int main()              //main wrong signature, multiple main definitions, non void function without return
+    {
+
+    }
+
+    void main(int a)         //main wrong signature, multiple main definitions
+    {
+
+    }
+}

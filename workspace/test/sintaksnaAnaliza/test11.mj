@@ -1,0 +1,13 @@
+program p
+    const int x = 5;
+    const char y = 'a';
+    int z;
+    const bool b1 = true;
+    const bool b2 = false;
+    char c;
+    bool b3;
+{
+	void main(){
+		print(x);
+	}
+}

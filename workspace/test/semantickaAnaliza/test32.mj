@@ -1,0 +1,54 @@
+program p
+    const int c1 = 5;
+    int x;
+{
+    void main()
+        int a, b[], c;
+        char d, r;
+        bool e, f;
+
+    {
+
+
+        f = e;
+        e = d;              //char assigned to bool
+        e = a;              //int assigned to bool
+        e = x;              //int assigned to bool
+        e = c1;             //int assigned to bool
+
+
+        d = e;              //bool assigned to char
+        d = x;              //int assigned to char
+
+        x = d;              //char assigned to int
+        x = e;              //bool assigned to int
+
+        b = a;              //int assigned to int array
+        b = d;              //char assigned to int array
+
+        a = b;              //int array assigned to int
+        d = b;              //int array assigned to bool
+
+        b = new int[5];
+        b = new char[5];    //char array assigned to int array
+        b = new bool[5];    //bool array assigned to int array
+
+        a = c * (x + c);
+        a = b * (x + c);    //b is array
+
+        a = b[3];
+        a = b[x + 3];
+        b[a - 2] = b[a + 3];
+
+        b[e] = 2;           //error in index expression type
+        b[2] = b[d];        //error in index expression type
+
+        a = 5;
+        a = 'a';            //error
+        d = 5;              //error
+        f = true;
+        f = 'a';            //error
+        f = 5;              //error
+        a = true;           //error
+    }
+}

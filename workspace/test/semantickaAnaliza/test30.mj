@@ -1,0 +1,22 @@
+program p
+    //var errors
+    int v;
+    int v;       //already defined symbol
+
+    //type errors
+    long q;      //unknown type
+    v w;         //symbol found but it is not a type
+
+    //const errors
+    const char a = 'a';
+    const char a = 'a';       //alrady defined
+    const int v = 5;          //alrady defined
+    const p e = 3;                //const type is not recognized
+    const int c1 = 'a';       //wrong type for init value
+
+{
+    void main()
+    {
+
+    }
+}

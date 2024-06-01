@@ -1,0 +1,18 @@
+program p
+    const int c = 5;
+{
+   
+
+    void main()
+        int x, y;
+    {
+        x = 10;
+      
+        read(y);
+        x = x - y;
+        
+        print(x);
+
+       
+    }
+}

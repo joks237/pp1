@@ -1,0 +1,22 @@
+program MJProgram
+	const int tri = 5; 
+	int i;
+	int arr[];
+	
+{
+
+ 	
+ 	
+void main() int i;{
+	
+	arr = new int[5];
+	arr[0] = 2;
+	print(arr[0]);
+}
+
+
+
+
+	
+
+}
